@@ -2066,4 +2066,49 @@ DP.PropEmotes = {
        EmoteLoop = true,
        EmoteMoving = true,
    }},
+   ["k9bark"] = {"creatures@rottweiler@amb@world_dog_barking@idle_a", "idle_a", "k9Bark", AnimationOptions =
+   {
+      EmoteLoop = true,
+	  EmoteMoving = false,
+   }},
+    ["k9down"] = {"creatures@rottweiler@amb@sleep_in_kennel@", "sleep_in_kennel", "Lay down", AnimationOptions =
+   {
+      EmoteLoop = true,
+      EmoteMoving = false,
+   }},
+    ["k9sit"] = {"creatures@rottweiler@amb@world_dog_sitting@base", "base", "Sit", AnimationOptions =
+   {
+      EmoteLoop = true,
+      EmoteMoving = false,
+   }},
+   ["k9itch"] = {"creatures@rottweiler@amb@world_dog_sitting@idle_a", "idle_a", "Itch", AnimationOptions =
+   {
+      EmoteDuration = 4000,
+      EmoteMoving = false,
+   }},
+   ["k9attention"] = {"creatures@rottweiler@indication@", "indicate_ahead", "Draw attention", AnimationOptions =
+   {
+      EmoteLoop = true,
+      EmoteMoving = false,
+   }},
+   ["k9taunt"] = {"creatures@rottweiler@melee@streamed_taunts@", "taunt_01", "Taunt", AnimationOptions =
+   {
+      EmoteLoop = true,
+      EmoteMoving = false, 
+   }},
+    ["k9beg"] = {"creatures@rottweiler@tricks@", "beg_loop", "Beg", AnimationOptions =
+   {
+      EmoteLoop = true,
+      EmoteMoving = false,
+   }},
+    ["k9paw"] = {"creatures@rottweiler@tricks@", "paw_right_loop", "Paw", AnimationOptions =
+   {
+      EmoteLoop = true,
+      EmoteMoving = false,
+   }},
+    ["k9pee"] = {"creatures@rottweiler@move", "pee_right_idle", "Pee", AnimationOptions =
+   {
+      EmoteDuration = 4000,
+      EmoteMoving = false,
+   }},
 }
